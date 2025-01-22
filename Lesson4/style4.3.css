@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 20vh;
+    background: #8D8484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header, footer p {
+    color: #000;
+    font-family: Inter sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer{
+    height: 20vh;
+    background: #BDBDBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section{
+    width: 73vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main aside{
+    width: 27vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main p{
+    color: #FFF;
+    font-family: Inter sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mcontt{
+    background:#776969 ;
+}
+.mcontm{
+    background:#643030 ;
+}
+.mcontb{
+    background:#441818 ;
+}
+.mspamt{
+    background:#937575 ;
+}
+.mspamb{
+    background:#644C4C ;
+}

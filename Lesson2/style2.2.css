@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.allcub{
+    background-color: #ffe2c4;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+.cub{
+    width: 100px;
+    height: 100px;
+    background-color: #fe0000;
+    transition: 0.5s;
+}
+.cub:hover{
+    border-radius: 50%;
+    background: gray;
+    transition: 1s;
+}

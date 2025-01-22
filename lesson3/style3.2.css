@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial sans-serif;
+
+
+}
+#first{
+    background: #ffc1cb;
+    color: #2a2021;
+    border-top: 2px solid red ;
+    border-right: 2px solid red;
+
+
+
+}
+#second{
+    background: #272727;
+    color: #ffffff;
+}
+h2{
+    padding: 30px;
+    font-size: 32px;
+
+}
+section p{
+    width: 90%;
+}

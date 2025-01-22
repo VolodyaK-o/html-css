@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #51c573;
+  }
+
+  .loader {
+    width: 400px;
+    height: 50px;
+    background-color: #3498db;
+    animation: snake 5s ease-in-out infinite ;
+  }
+
+  @keyframes snake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(500px) rotate(90deg)  ;
+      background-color: #2a2021;
+    }
+    50% {
+      transform: translate(500px, 500px) rotate(180deg);
+      background-color: aqua;
+    }
+    75% {
+      transform: translateY(500px) rotate(270deg);
+      background-color: #643030;
+    }
+    100% {
+      transform: translateY(0) rotate(360deg);
+      background-color: #8ae9dc;
+    }
+
+
+  }
+</style>
+</head>
+<body>
+<div class="loader"></div>
+</body>
+</html>

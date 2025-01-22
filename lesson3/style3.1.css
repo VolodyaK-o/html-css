@@ -1,0 +1,44 @@
+header{
+    height: 50vh;
+    background: #216abb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+
+
+}
+section{
+    height: 55vh;
+    width: 30vw;
+    background: #164579;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 80vh;
+    background: #216abb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 2%;
+}
+p{
+    font-size: 32px;
+    color: #e6f6f5;
+}
+header p{
+    font-size: 70px;
+}
+footer p{
+    font-size: 70px;
+}

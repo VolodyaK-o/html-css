@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*margin-top: auto;*/
+        height: 100vh;
+
+    }
+
+    .kub {
+        width: 500px;
+        height: 500px;
+        background-color: #643030;
+        animation: kybik 5s ease-in-out infinite;
+    }
+
+    @keyframes kybik {
+        0%, 100% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2) rotate(180deg);
+            background-color: #8ae9dc;
+            border:10px solid red;
+            border-radius: 10%;
+        }
+        75% {
+            transform: scale(1.4) ;
+
+            border-top:10px solid red;
+            border-left:10px solid blue;
+            border-right:10px solid yellow;
+            border-right:10px solid purple;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+    }
+</style>
+<body>
+<div class="kub"></div>
+</body>
+</html>

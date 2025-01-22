@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+header div {
+    text-align: center;
+}
+
+header div h3 {
+    font-size: 16px;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: gray;
+    font-size: 20px;
+}
+.active-link {
+    color: #4f6e51;
+}
+main {
+
+    height: 90vh;
+    background-image: url("https://media.istockphoto.com/id/2153573059/photo/mountain-covered-with-a-coniferous-fir-tree-forest-scenic-landscape-from-carpathian-mountains.webp?a=1&b=1&s=612x612&w=0&k=20&c=T8LR8_7_56E8X_Q3-PONzFG-fv5BMCk8UKFkbbo1fN4=");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 50px;
+
+
+}
+main p{
+    font-size: 36px;
+    width: 40vw;
+    text-align: center;
+
+}
