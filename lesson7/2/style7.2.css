@@ -1,10 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+
+    /*width: 1400px;*/
+    /*height: 2214px;*/
+    /*background: #24204A;*/
+}
+body {
+    width: 1400px;
+}
+header .head-er{
+    width: 1153px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header {
+    width: 1400px;
+    height: 113px;
+    background: #24204A;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: fixed;
+    top: 0;
+
+}
+header p {
+    color: #E5E5E5;
+
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 64px;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: #FFF;
+
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+
+}
+/*11111111111111111111111111111111111111111111111111111111111111*/
+
+.sect-one{
+
+    height: 692px;
+    background: #24204A;
+    padding: 180px 0 101px 0;
+    box-sizing: border-box;
+
+}
+
+
+.sect-one-cont{
+    width: 1153px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-l {
+    width: 375px;
+    height: 411px;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 48px;
+
+}
+.b-o-p{
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    background: #4B4864;
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+
+}
+section div.sect-one-cont aside h2 {
+    width: 261px;
+    color: #FFF;
+
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin-top: 32px;
+}
+section div.sect-one-cont aside p{
+    width: 570px;
+    height: 85px;
+    color:  #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+    margin-top: 32px;
 }
 .b-ab{
+    width: 200px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
     border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 32px;
+
 }
-.a {
-dwdw
+
+/*1111111111111111111111111111111111111111111111111*/
+
+.mini-logo-sect{
+    height: 764px;
+    background: #071341;
+    box-sizing: border-box;
+    padding: 50px 0 152px 0;
 }
+.section-t{
+    width: 1153px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+.logo-img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.svg-icon{
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF6853;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-num{
+    color: #FFF;
+
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.butt-text{
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.icon-text{
+    gap: 3px;
+    padding-left: 18px;
+}
+.coral {
+    background: #FF537C;
+}
+.light {
+    background: #80D2C4;
+}
+.blue {
+    background: #3F50E7;
+}
+.green {
+    background: #95CB7C;
+}
+section.mini-logo-sect div.section-t h2 {
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+    margin-top: 50px ;
+
+}
+.sect-t-text{
+    color:  #8E88C1;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+    margin-top: 50px ;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-top: 50px ;
+
+}
+.card {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid  #8E88C1;
+    gap: 26px;
+
+}
+.card svg{
+    padding-top: 44px;
+}
+.card p{
+    width: 178px;
+    color:  #8E88C1;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+
+}
+.map-img-sect{
+    height: 664px;
+    background: #071341;
+    box-sizing: border-box;
+
+}
+.img-map {
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+footer {
+    width: 1400px;
+    height: 94px;
+    background: #071341;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    /*width: 96px;*/
+    /*height: 24px;*/
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+}
+
+
