@@ -1,0 +1,12 @@
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .cards-1, .cards-2{
+        width: 720px;
+
+    }
+    .card{
+        width: 219px;
+        height: 239px;
+
+
+    }
+}

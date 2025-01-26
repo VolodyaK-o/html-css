@@ -10,6 +10,7 @@
 }
 body {
     width: 1400px;
+
 }
 header .head-er{
     width: 1153px;
@@ -300,7 +301,7 @@ section.mini-logo-sect div.section-t h2 {
 }
 
 footer {
-    width: 1400px;
+    /*width: 1400px;*/
     height: 94px;
     background: #071341;
     margin: 0 auto;
