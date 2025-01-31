@@ -4,14 +4,11 @@ header {
     width: 1440px;
     height: 86px;
     background: #EFF0F3;
-
-    /* For White Background */
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 0;
     padding-left: 95px;
     padding-right: 95px;
 }
@@ -74,10 +71,10 @@ nav ul li a {
     text-transform: capitalize;
 }
 
-.btn-header:hover {
-    background: #4f6e51;
-    color: #900302;
-}
+/*.btn-header:hover {*/
+/*    background: #4f6e51;*/
+/*    color: #900302;*/
+/*}*/
 
 nav ul li a:hover {
     color: #4f6e51;
@@ -143,10 +140,7 @@ nav ul li a:hover {
 }
 
 .mail-input input[type='text'] {
-
     color: #C0C0C0;
-
-    /* 20 px - Paragraph 1 */
     font-family: Plus Jakarta Sans, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -472,6 +466,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .footer {
     display: flex;
@@ -528,4 +523,37 @@ footer{
     flex-direction: column;
     gap: 20px;
 
+}
+.footer-category h3{
+    color:  #2B2C34;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.footer-category li a{
+    color:  #2B2C34;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer hr{
+    width: 1250px;
+    height: 1px;
+    background: #C0C0C0;
+    margin-top: 50px;
+}
+.author-rules {
+    width: 1200px;
+    color:  #2B2C34;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
